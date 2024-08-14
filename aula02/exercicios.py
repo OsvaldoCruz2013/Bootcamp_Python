@@ -32,6 +32,3 @@ print(nome.title()) # Transforma a primeira letra de cada palavra em maiúsculas
 print(nome.strip()) # Remove os espacos em branco a esquerda e a direitanome.strip() # Remove os espacos em branco a esquerda e a direita
 print(nome.split(sep="_")) # Divide o nome em uma lista de palavrasnome.split() # Divide o nome em uma lista de palavras
 print(nome + " Cruz") # Concatena o nome com uma stringnome + "Cruz" # Concatena o nome com uma string
-
-
-
