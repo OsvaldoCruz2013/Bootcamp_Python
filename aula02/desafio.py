@@ -46,8 +46,11 @@ numero1 = float(input("digite um valor: "))
 print(f"A temperatura em Fahrenheit é: {(numero1 * 1.8) + 32}")
 
 ##5.Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-numero1 = float(input("digite um valor: "))
-print(f"A área do círculo de raio {numero1} é: {3.14 * (numero1 ** 2)}")
+
+import math
+raio = float(input("digite um valor do raio: "))
+circulo = math.pi * (raio ** 2)
+print(f"A área do círculo de raio {raio} é: {circulo}")
 
 
 #Strings (str)

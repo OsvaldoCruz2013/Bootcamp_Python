@@ -41,3 +41,4 @@ or (OU lógico)
 not (NÃO lógico)
 == (igualdade)
 != (diferença)
+
